@@ -13,7 +13,7 @@ int main(){
     for(int i=0; i<5 ;i++){
         data[i]=i;
     }
-    permutation(data,0,5);
+    permutation(data,0,5); //FIRST CALLBACK
 }
 
 void permutation(std::vector<int> &data, int i, int length){
